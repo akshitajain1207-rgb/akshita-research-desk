@@ -1,0 +1,65 @@
+.case-file-back {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 0;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  color: inherit;
+  font: 500 9px/1.4 "IBM Plex Mono", monospace;
+  letter-spacing: .045em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color .18s ease, border-color .18s ease;
+}
+
+.case-file-back:hover,
+.case-file-back:focus-visible {
+  color: #B96550;
+  border-bottom-color: currentColor;
+}
+
+.coforge-topbar,
+.hdfc-topbar,
+.axis-topbar,
+.netflix-topbar {
+  gap: 16px;
+}
+
+.coforge-topbar > span:first-of-type,
+.hdfc-topbar > span:first-of-type,
+.axis-topbar > span:first-of-type,
+.netflix-topbar > span:first-of-type {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.coforge-close,
+.hdfc-close,
+.axis-close,
+.netflix-close {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 620px) {
+  .case-file-back {
+    gap: 4px;
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+
+  .coforge-topbar,
+  .hdfc-topbar,
+  .axis-topbar,
+  .netflix-topbar {
+    gap: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
