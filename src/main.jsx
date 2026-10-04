@@ -507,17 +507,14 @@ function App() {
               </div>
               <h2>Research, modelling &amp; markets.</h2>
             </div>
-            <div className="resume-actions" aria-describedby="resume-file-status">
-              <button type="button" disabled>
+            <div className="resume-actions">
+              <a href="/reports/Akshita_Jain_CV.pdf" target="_blank" rel="noreferrer">
                 VIEW RESUME <span aria-hidden="true">↗</span>
-              </button>
-              <button type="button" disabled>
+              </a>
+              <a href="/reports/Akshita_Jain_CV.pdf" download="Akshita_Jain_CV.pdf">
                 DOWNLOAD RESUME <span aria-hidden="true">↓</span>
-              </button>
+              </a>
             </div>
-            <p className="resume-file-status" id="resume-file-status">
-              Resume PDF not found. Place the PDF in <code>public/</code> to enable these actions.
-            </p>
           </div>
         </section>
 

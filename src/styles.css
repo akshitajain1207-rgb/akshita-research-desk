@@ -929,7 +929,7 @@ h2 em {
   gap: 26px;
 }
 
-.resume-actions button {
+.resume-actions a {
   display: inline-flex;
   align-items: center;
   gap: 9px;
@@ -944,28 +944,9 @@ h2 em {
   transition: .25s ease;
 }
 
-.resume-actions button span {
+.resume-actions a span {
   color: var(--terra-light);
   font-size: 13px;
-}
-
-.resume-actions button:disabled {
-  color: var(--muted);
-  opacity: .76;
-  cursor: not-allowed;
-}
-
-.resume-file-status {
-  grid-column: 1 / -1;
-  margin: 0;
-  color: var(--muted);
-  font-size: 10px;
-  line-height: 1.6;
-}
-
-.resume-file-status code {
-  color: var(--blue);
-  font-family: 'IBM Plex Mono', monospace;
 }
 
 /* =========================
