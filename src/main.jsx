@@ -538,13 +538,13 @@ function App() {
           </p>
 
           <div className="contact-links" data-reveal>
-            <a href="mailto:akshita@example.com">
+            <a href="mailto:akshitajain1207@gmail.com">
               <Mail size={16} />
               Email
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/akshita1jain/"
               target="_blank"
               rel="noreferrer"
             >
